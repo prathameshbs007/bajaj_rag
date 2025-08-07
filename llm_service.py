@@ -6,7 +6,7 @@ import logging
 from typing import List, Dict, Any
 import openai
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
-from .config import settings
+from config import settings
 
 logger = logging.getLogger(__name__)
 

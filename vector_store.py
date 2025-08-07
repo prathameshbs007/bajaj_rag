@@ -6,7 +6,7 @@ import logging
 import uuid
 from typing import List, Dict, Any
 from pinecone import Pinecone, ServerlessSpec
-from .config import settings
+from config import settings
 
 logger = logging.getLogger(__name__)
 
